@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NagarSaathi — Community & City Partnership</title>
+<meta name="description" content="NagarSaathi (नगर साथी) — report city problems, track them until resolution, and build a better city together.">
+<meta name="theme-color" content="#1B3A8C">
+<link rel="icon" href="assets/favicon.png">
+<meta property="og:title" content="NagarSaathi — Community & City Partnership">
+<meta property="og:image" content="assets/logo-512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="sr" href="#view">Skip to content</a>
+<div class="tri"></div>
+<header class="top"><div class="top-in">
+  <button class="icon-btn burger" id="burger" aria-label="Open menu">☰</button>
+  <a class="brand" href="#/home" aria-label="NagarSaathi home"><img src="assets/favicon.png" width="46" height="46" alt=""><span><b>Nagar</b><i>Saathi</i><small>Community &amp; City Partnership</small></span></a>
+  <nav class="nav-top" aria-label="Main"><a href="#/home">Home</a><a href="#/dashboard">Dashboard</a><a href="#/map">Map</a><a href="#/issues">Issues</a><a href="#/community">Community</a><a href="#/about">About</a></nav>
+  <span class="spacer"></span>
+  <a class="btn btn-p btn-sm" href="#/report">📸 Report</a>
+  <button class="icon-btn" id="bell" aria-label="Alerts">🔔<span class="dot" id="abadge">0</span></button>
+  <button class="icon-btn" id="theme" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+</div></header>
+
+<div class="shell">
+  <aside class="side" id="side" aria-label="App navigation"><nav></nav><div class="xp" id="sidexp"></div></aside>
+  <main><div id="view"></div></main>
+</div>
+
+<footer><div class="foot">
+  <div><div class="brand" style="color:#fff"><img src="assets/favicon.png" width="46" height="46" alt=""><span><b style="color:#fff">Nagar</b><i>Saathi</i></span></div>
+    <p style="margin-top:12px;opacity:.85">नगर साथी — सेवा • सहभागिता • विकास<br><em>Building Better Cities, One Fix at a Time.</em></p>
+    <p class="founder">Founded by <b>Guddu Kumar</b></p></div>
+  <div><h5>Platform</h5><a href="#/report">Report an issue</a><a href="#/map">City map</a><a href="#/issues">Issue tracker</a><a href="#/wards">Ward dashboard</a></div>
+  <div><h5>Community</h5><a href="#/rewards">Rewards</a><a href="#/community">Clean-up drives</a><a href="#/alerts">Alerts</a><a href="#/about">About us</a></div>
+  <div><h5>Contact</h5><a href="https://wa.me/917796636077" target="_blank" rel="noopener">💬 WhatsApp: +91 77966 36077</a><a href="https://nagarsaathi.woodfly.xyz" target="_blank" rel="noopener">🌐 nagarsaathi.woodfly.xyz</a></div>
+</div><div class="copy"><span>© 2026 NagarSaathi. All rights reserved.</span><span>Made with ❤️ in India 🇮🇳</span></div></footer>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div class="tip" id="tip"></div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
